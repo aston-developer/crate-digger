@@ -16,11 +16,11 @@ public class Main {
             // crate-digger project source level 1.6 (no lambda's)
 
             // Tracks
-            for (Map.Entry<Long, RekordboxPdb.TrackRow> trackVal : database.trackIndex.entrySet()) {
-                RekordboxPdb.TrackRow track = trackVal.getValue();
-                RekordboxPdb.DeviceSqlShortAscii title = (RekordboxPdb.DeviceSqlShortAscii) track.title().body();
-                System.out.println("TrackID: " +  track.id() + " \t\t ArtistID: " + track.artistId() + " \t\t Play Count: " + track.playCount() + " \t\t Title: " + title.text());
-            }
+//            for (Map.Entry<Long, RekordboxPdb.TrackRow> trackVal : database.trackIndex.entrySet()) {
+//                RekordboxPdb.TrackRow track = trackVal.getValue();
+//                RekordboxPdb.DeviceSqlShortAscii title = (RekordboxPdb.DeviceSqlShortAscii) track.title().body();
+//                System.out.println("TrackID: " +  track.id() + " \t\t ArtistID: " + track.artistId() + " \t\t Play Count: " + track.playCount() + " \t\t Title: " + title.text());
+//            }
 
 
 //            database.trackIndex.forEach((k, v) -> {
